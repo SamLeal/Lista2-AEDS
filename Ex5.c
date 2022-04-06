@@ -6,6 +6,11 @@ int main()
 {
     //Construa um algoritmo que receba como entrada três valores (A,B e C). Após o processamento o menor valor deverá estar em A e o maior valor em C, e o valor intermediário em B. Imprima A,B e C.
 
+    /* Entrada            Saida
+        123               O valor de A é: 1. O valor  de B é: 2. O valor de C é: 3.               
+        321               O valor de A é: 1. O valor  de B é: 2. O valor de C é: 3.
+        213               O valor de A é: 1. O valor  de B é: 2. O valor de C é: 3.
+    */
 
     int a, b, c, maior, menor, medio;
 

@@ -4,6 +4,13 @@
 int main()
 {
     //Fazer um algoritmo que leia a temperatura da água e mostre se está no estado solido, líquido ou gasoso.
+
+    /* Entrada            Saida
+         4                 Na temperatura 4 a agua esta no estado LIQUIDO!
+         120               Na temperatura 120 a agua esta no estado GASOSO!
+         -10               Na temperatura -10 a agua esta no estado SOLIDO!
+    */
+   
     float temp;
 
     printf("Digite a temperatura da agua: ");

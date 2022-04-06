@@ -12,6 +12,12 @@ int main()
     O algoritmo devera ler a conta do cliente, seu tipo (residencial, comercial e industrial) e o seu consumo de água em metros cubos. 
     Como resultado imprimir o valor a ser pago pelo mesmo*/
 
+    /* Entrada            Saida
+        2, 10           A conta do seu comercio e:  R$ 500
+        1, 20           A conta da sua residencia e:R$ 145.00
+        3, 1000         A conta da sua industria e:R$ 8000.00
+    */
+
     int tipo;
     float metros, taxa;
 
@@ -27,17 +33,17 @@ int main()
         if(tipo == 2){
             if (metros > 80){
                 taxa = 500 + ((metros-80)*5.50);
-                printf("A conta da sua residencia e:R$ %.2f", taxa);
+                printf("A conta do seu comercio e:R$ %.2f", taxa);
             } else{
-                printf("A conta da sua residencia e:  R$ 500");
+                printf("A conta do seu comercio e:  R$ 500");
             } 
         } else{
             if(tipo == 3){
                 if (metros > 100){
                     taxa = 800 + ((metros-100)*8);
-                    printf("A conta da sua residencia e:R$ %.2f", taxa);
+                    printf("A conta da sua industria e:R$ %.2f", taxa);
                 } else{
-                    printf("A conta da sua residencia e:  R$ 800");
+                    printf("A conta da sua industria e:  R$ 800");
                 } 
             }  else{
                 printf("VALOR INVALIDO!!!");

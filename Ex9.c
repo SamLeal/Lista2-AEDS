@@ -6,6 +6,12 @@ int main()
 {
     /* Números palíndromos são aqueles que escritos da direita para esquerda ou da esquerda para direita tem o mesmo valor. 
     Exemplo:929, 44, 97379. Fazer um algoritmo que dado um numero de 5 dígitos; calcule e escreva se este e ou não palíndromo*/
+
+    /* Entrada            Saida
+    97379                   O NUMERO E PALINDROMO
+    96379                   O NUMERO NAO E PALINDROMO
+    */
+   
     int num1,num2,num3,num4,num5, numero, auxiliar, invertido;
 
     printf("Digite um numero de 5 digitos:");

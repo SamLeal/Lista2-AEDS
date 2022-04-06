@@ -11,6 +11,12 @@ int main()
     312 Mário 
     332 Artur*/
 
+    /* Entrada            Saida
+        221                 A pessoa é o Bernardo.
+        311                 A pessoa é o Luiz.
+        322                 Entrada inválida!!!
+    */
+
     int codigo;
     
     printf("Digite o código da pessoa:");

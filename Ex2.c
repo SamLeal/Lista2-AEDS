@@ -5,6 +5,11 @@ int main()
 {
     //Fazer um algoritmo peça o nome e as 3 notas de um aluno e mostre, além do nome e do valor da media do aluno, uma mensagem de "Aprovado", caso a media seja igual ou superior a 6, ou a mensagem "reprovado", caso contrario.
 
+    /* Entrada            Saida
+    Sam, 7, 6, 8        O Sam estaa APROVADO com a media 7.    
+    Sam, 3, 4, 2        O Sam estaa REPROVADO com a media 3.        
+    */
+
     char nome[50];
     int nota1, nota2, nota3;
     float media;
